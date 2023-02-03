@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Repositories\Authentication\EloquentAuthenticationRepository;
+use App\Repositories\RepositoryInterface;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,6 +25,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->app->bind(RepositoryInterface::class, EloquentAuthenticationRepository::class);
     }
 }

@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Authentication Defaults
+    | verifyUserExistsByEmail Defaults
     |--------------------------------------------------------------------------
     |
     | This option controls the default authentication "guard" and password
@@ -20,7 +20,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Authentication Guards
+    | verifyUserExistsByEmail Guards
     |--------------------------------------------------------------------------
     |
     | Next, you may define every authentication guard for your application.

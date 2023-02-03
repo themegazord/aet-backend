@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Authentication Language Lines
+    | verifyUserExistsByEmail Language Lines
     |--------------------------------------------------------------------------
     |
     | The following language lines are used during authentication for various
